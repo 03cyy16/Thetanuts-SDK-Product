@@ -1,0 +1,774 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\chaiy\OneDrive\Documents\thetanuts track 1\.npmrc
+5 silly config load:file:C:\Users\chaiy\.npmrc
+6 silly config load:file:C:\Users\chaiy\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\chaiy\OneDrive\Documents\thetanuts track 1\.npm-cache\_logs\2026-08-31T11_58_47_704Z-
+10 verbose logfile C:\Users\chaiy\OneDrive\Documents\thetanuts track 1\.npm-cache\_logs\2026-08-31T11_58_47_704Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest fsevents@~2.3.2
+15 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+16 http cache https://registry.npmjs.org/fsevents 11ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+18 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+19 silly fetch manifest @next/swc-darwin-arm64@15.5.24
+20 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+21 http cache https://registry.npmjs.org/@next%2fswc-darwin-arm64 16ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5575340 disposed:false
+23 silly fetch manifest @next/swc-darwin-x64@15.5.24
+24 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+25 http cache https://registry.npmjs.org/@next%2fswc-darwin-x64 14ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5515263 disposed:false
+27 silly fetch manifest @next/swc-linux-arm64-gnu@15.5.24
+28 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+29 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 16ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5433431 disposed:false
+31 silly fetch manifest @next/swc-linux-arm64-musl@15.5.24
+32 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+33 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 14ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5452870 disposed:false
+35 silly fetch manifest @next/swc-linux-x64-gnu@15.5.24
+36 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+37 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 14ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5628641 disposed:false
+39 silly fetch manifest @next/swc-linux-x64-musl@15.5.24
+40 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+41 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-musl 16ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5384292 disposed:false
+43 silly fetch manifest @next/swc-win32-arm64-msvc@15.5.24
+44 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+45 http cache https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 14ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5414614 disposed:false
+47 silly placeDep ROOT @next/swc-darwin-arm64@15.5.24 OK for: next@15.5.24 want: 15.5.24
+48 silly placeDep ROOT @next/swc-darwin-x64@15.5.24 OK for: next@15.5.24 want: 15.5.24
+49 silly placeDep ROOT @next/swc-linux-arm64-gnu@15.5.24 OK for: next@15.5.24 want: 15.5.24
+50 silly placeDep ROOT @next/swc-linux-arm64-musl@15.5.24 OK for: next@15.5.24 want: 15.5.24
+51 silly placeDep ROOT @next/swc-linux-x64-gnu@15.5.24 OK for: next@15.5.24 want: 15.5.24
+52 silly placeDep ROOT @next/swc-linux-x64-musl@15.5.24 OK for: next@15.5.24 want: 15.5.24
+53 silly placeDep ROOT @next/swc-win32-arm64-msvc@15.5.24 OK for: next@15.5.24 want: 15.5.24
+54 silly fetch manifest @img/sharp-darwin-arm64@0.35.4
+55 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+56 http cache https://registry.npmjs.org/@img%2fsharp-darwin-arm64 6ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:110251 disposed:false
+58 silly fetch manifest @img/sharp-darwin-x64@0.35.4
+59 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+60 http cache https://registry.npmjs.org/@img%2fsharp-darwin-x64 9ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:108820 disposed:false
+62 silly fetch manifest @img/sharp-freebsd-wasm32@0.35.4
+63 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 cache-miss
+64 http cache https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 4ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 set size:47096 disposed:false
+66 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.3.3
+67 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+68 http cache https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 4ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:88531 disposed:false
+70 silly fetch manifest @img/sharp-libvips-darwin-x64@1.3.3
+71 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+72 http cache https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 3ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:87586 disposed:false
+74 silly fetch manifest @img/sharp-libvips-linux-arm@1.3.3
+75 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+76 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 4ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:95067 disposed:false
+78 silly fetch manifest @img/sharp-libvips-linux-arm64@1.3.3
+79 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+80 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 4ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:92171 disposed:false
+82 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.3.3
+83 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+84 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 4ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:77213 disposed:false
+86 silly fetch manifest @img/sharp-libvips-linux-riscv64@1.3.3
+87 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 cache-miss
+88 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 4ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 set size:63460 disposed:false
+90 silly fetch manifest @img/sharp-libvips-linux-s390x@1.3.3
+91 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+92 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 4ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:86174 disposed:false
+94 silly fetch manifest @img/sharp-libvips-linux-x64@1.3.3
+95 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 cache-miss
+96 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 3ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 set size:90900 disposed:false
+98 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.3.3
+99 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+100 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 3ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:91390 disposed:false
+102 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.3.3
+103 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+104 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 4ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:88274 disposed:false
+106 silly fetch manifest @img/sharp-linux-arm@0.35.4
+107 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+108 http cache https://registry.npmjs.org/@img%2fsharp-linux-arm 4ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:107173 disposed:false
+110 silly fetch manifest @img/sharp-linux-arm64@0.35.4
+111 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+112 http cache https://registry.npmjs.org/@img%2fsharp-linux-arm64 4ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:108045 disposed:false
+114 silly fetch manifest @img/sharp-linux-ppc64@0.35.4
+115 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+116 http cache https://registry.npmjs.org/@img%2fsharp-linux-ppc64 3ms (cache hit)
+117 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:72651 disposed:false
+118 silly fetch manifest @img/sharp-linux-riscv64@0.35.4
+119 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 cache-miss
+120 http cache https://registry.npmjs.org/@img%2fsharp-linux-riscv64 3ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 set size:50215 disposed:false
+122 silly fetch manifest @img/sharp-linux-s390x@0.35.4
+123 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+124 http cache https://registry.npmjs.org/@img%2fsharp-linux-s390x 4ms (cache hit)
+125 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:105911 disposed:false
+126 silly fetch manifest @img/sharp-linux-x64@0.35.4
+127 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 cache-miss
+128 http cache https://registry.npmjs.org/@img%2fsharp-linux-x64 4ms (cache hit)
+129 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 set size:106660 disposed:false
+130 silly fetch manifest @img/sharp-linuxmusl-arm64@0.35.4
+131 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+132 http cache https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 4ms (cache hit)
+133 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:109709 disposed:false
+134 silly fetch manifest @img/sharp-linuxmusl-x64@0.35.4
+135 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+136 http cache https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 4ms (cache hit)
+137 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:108319 disposed:false
+138 silly fetch manifest @img/sharp-webcontainers-wasm32@0.35.4
+139 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 cache-miss
+140 http cache https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 4ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 set size:46202 disposed:false
+142 silly fetch manifest @img/sharp-win32-arm64@0.35.4
+143 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+144 http cache https://registry.npmjs.org/@img%2fsharp-win32-arm64 4ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:67825 disposed:false
+146 silly fetch manifest @img/sharp-win32-ia32@0.35.4
+147 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+148 http cache https://registry.npmjs.org/@img%2fsharp-win32-ia32 3ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:108835 disposed:false
+150 silly placeDep ROOT @img/sharp-darwin-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+151 silly placeDep ROOT @img/sharp-darwin-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+152 silly placeDep ROOT @img/sharp-freebsd-wasm32@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+153 silly placeDep ROOT @img/sharp-libvips-darwin-arm64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+154 silly placeDep ROOT @img/sharp-libvips-darwin-x64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+155 silly placeDep ROOT @img/sharp-libvips-linux-arm@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+156 silly placeDep ROOT @img/sharp-libvips-linux-arm64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+157 silly placeDep ROOT @img/sharp-libvips-linux-ppc64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+158 silly placeDep ROOT @img/sharp-libvips-linux-riscv64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+159 silly placeDep ROOT @img/sharp-libvips-linux-s390x@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+160 silly placeDep ROOT @img/sharp-libvips-linux-x64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+161 silly placeDep ROOT @img/sharp-libvips-linuxmusl-arm64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+162 silly placeDep ROOT @img/sharp-libvips-linuxmusl-x64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+163 silly placeDep ROOT @img/sharp-linux-arm@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+164 silly placeDep ROOT @img/sharp-linux-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+165 silly placeDep ROOT @img/sharp-linux-ppc64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+166 silly placeDep ROOT @img/sharp-linux-riscv64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+167 silly placeDep ROOT @img/sharp-linux-s390x@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+168 silly placeDep ROOT @img/sharp-linux-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+169 silly placeDep ROOT @img/sharp-linuxmusl-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+170 silly placeDep ROOT @img/sharp-linuxmusl-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+171 silly placeDep ROOT @img/sharp-webcontainers-wasm32@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+172 silly placeDep ROOT @img/sharp-win32-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+173 silly placeDep ROOT @img/sharp-win32-ia32@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+174 silly fetch manifest @img/sharp-wasm32@0.35.4
+175 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+176 silly fetch manifest @img/sharp-wasm32@0.35.4
+177 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+178 http cache https://registry.npmjs.org/@img%2fsharp-wasm32 5ms (cache hit)
+179 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:103630 disposed:false
+180 http cache https://registry.npmjs.org/@img%2fsharp-wasm32 6ms (cache hit)
+181 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:103630 disposed:false
+182 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 dispose
+183 silly placeDep ROOT @img/sharp-wasm32@0.35.4 OK for: @img/sharp-freebsd-wasm32@0.35.4 want: 0.35.4
+184 silly fetch manifest @emnapi/runtime@^1.11.3
+185 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+186 http cache https://registry.npmjs.org/@emnapi%2fruntime 4ms (cache hit)
+187 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:125040 disposed:false
+188 silly placeDep ROOT @emnapi/runtime@1.11.3 OK for: @img/sharp-wasm32@0.35.4 want: ^1.11.3
+189 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0
+190 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+191 http cache https://registry.npmjs.org/react 17ms (cache hit)
+192 silly packumentCache full:https://registry.npmjs.org/react set size:6926968 disposed:false
+193 warn ERESOLVE overriding peer dependency {
+193 warn ERESOLVE   code: 'ERESOLVE',
+193 warn ERESOLVE   edge: {
+193 warn ERESOLVE     type: 'peer',
+193 warn ERESOLVE     name: 'react',
+193 warn ERESOLVE     spec: '^16.8.0 || ^17.0.0 || ^18.0.0',
+193 warn ERESOLVE     error: 'INVALID',
+193 warn ERESOLVE     from: {
+193 warn ERESOLVE       name: 'use-sync-external-store',
+193 warn ERESOLVE       version: '1.2.0',
+193 warn ERESOLVE       location: 'node_modules/valtio/node_modules/use-sync-external-store',
+193 warn ERESOLVE       isWorkspace: false,
+193 warn ERESOLVE       dependents: [Array]
+193 warn ERESOLVE     }
+193 warn ERESOLVE   },
+193 warn ERESOLVE   dep: {
+193 warn ERESOLVE     name: 'react',
+193 warn ERESOLVE     version: '18.3.1',
+193 warn ERESOLVE     whileInstalling: {
+193 warn ERESOLVE       name: 'use-sync-external-store',
+193 warn ERESOLVE       version: '1.2.0',
+193 warn ERESOLVE       path: 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\valtio\\node_modules\\use-sync-external-store'
+193 warn ERESOLVE     },
+193 warn ERESOLVE     location: 'node_modules/react',
+193 warn ERESOLVE     isWorkspace: false,
+193 warn ERESOLVE     dependents: [ [Object] ]
+193 warn ERESOLVE   },
+193 warn ERESOLVE   force: false,
+193 warn ERESOLVE   isMine: false,
+193 warn ERESOLVE   strictPeerDeps: false,
+193 warn ERESOLVE   current: {
+193 warn ERESOLVE     name: 'react',
+193 warn ERESOLVE     version: '19.2.8',
+193 warn ERESOLVE     location: 'node_modules/react',
+193 warn ERESOLVE     isWorkspace: false,
+193 warn ERESOLVE     dependents: [
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object], [Object], [Object],
+193 warn ERESOLVE       [Object]
+193 warn ERESOLVE     ]
+193 warn ERESOLVE   },
+193 warn ERESOLVE   peerConflict: {
+193 warn ERESOLVE     current: {
+193 warn ERESOLVE       name: 'react',
+193 warn ERESOLVE       version: '19.2.8',
+193 warn ERESOLVE       location: 'node_modules/react',
+193 warn ERESOLVE       isWorkspace: false,
+193 warn ERESOLVE       dependents: [Array]
+193 warn ERESOLVE     },
+193 warn ERESOLVE     peer: {
+193 warn ERESOLVE       name: 'react',
+193 warn ERESOLVE       version: '18.3.1',
+193 warn ERESOLVE       whileInstalling: [Object],
+193 warn ERESOLVE       location: 'node_modules/react',
+193 warn ERESOLVE       isWorkspace: false,
+193 warn ERESOLVE       dependents: [Array]
+193 warn ERESOLVE     }
+193 warn ERESOLVE   }
+193 warn ERESOLVE }
+194 silly reify mark retired [
+194 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\autoprefixer',
+194 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\autoprefixer',
+194 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\autoprefixer.cmd',
+194 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\autoprefixer.ps1'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\baseline-browser-mapping',
+195 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\baseline-browser-mapping',
+195 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+195 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\browserslist',
+196 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\browserslist',
+196 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\browserslist.cmd',
+196 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\browserslist.ps1'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\crc-32',
+197 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\crc32',
+197 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\crc32.cmd',
+197 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\crc32.ps1'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\cssesc',
+198 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\cssesc',
+198 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\cssesc.cmd',
+198 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\cssesc.ps1'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\jiti',
+199 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\jiti',
+199 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\jiti.cmd',
+199 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\jiti.ps1'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\loose-envify',
+200 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\loose-envify',
+200 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\loose-envify.cmd',
+200 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\loose-envify.ps1'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\next',
+201 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\next',
+201 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\next.cmd',
+201 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\next.ps1'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\nanoid',
+202 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\nanoid',
+202 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\nanoid.cmd',
+202 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\nanoid.ps1'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\node-gyp-build',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build.cmd',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build.ps1',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-optional',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-optional.cmd',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-optional.ps1',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-test',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-test.cmd',
+203 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-test.ps1'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\pino',
+204 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\pino',
+204 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\pino.cmd',
+204 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\pino.ps1'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\porto',
+205 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\porto',
+205 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\porto.cmd',
+205 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\porto.ps1'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\qrcode',
+206 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\qrcode',
+206 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\qrcode.cmd',
+206 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\qrcode.ps1'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\resolve',
+207 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\resolve',
+207 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\resolve.cmd',
+207 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\resolve.ps1'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\semver',
+208 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\semver',
+208 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\semver.cmd',
+208 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\semver.ps1'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\sha.js',
+209 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sha.js',
+209 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sha.js.cmd',
+209 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sha.js.ps1'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\tailwindcss',
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwind',
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwind.cmd',
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwind.ps1',
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwindcss',
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwindcss.cmd',
+210 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwindcss.ps1'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\sucrase',
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase',
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase.cmd',
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase.ps1',
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase-node',
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase-node.cmd',
+211 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase-node.ps1'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\typescript',
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsc',
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsc.cmd',
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsc.ps1',
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsserver',
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsserver.cmd',
+212 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsserver.ps1'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\ua-parser-js',
+213 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\ua-parser-js',
+213 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\ua-parser-js.cmd',
+213 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\ua-parser-js.ps1'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\update-browserslist-db',
+214 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\update-browserslist-db',
+214 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\update-browserslist-db.cmd',
+214 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\update-browserslist-db.ps1'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\uuid',
+215 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\uuid',
+215 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\uuid.cmd',
+215 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\uuid.ps1'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@ethereumjs\\rlp',
+216 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\rlp',
+216 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\rlp.cmd',
+216 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\rlp.ps1'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\uuid',
+217 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\uuid',
+217 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\uuid.cmd',
+217 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\uuid.ps1'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\uuid',
+218 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\uuid',
+218 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\uuid.cmd',
+218 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\uuid.ps1'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\uuid',
+219 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\uuid',
+219 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\uuid.cmd',
+219 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\uuid.ps1'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\uuid',
+220 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\uuid',
+220 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\uuid.cmd',
+220 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\uuid.ps1'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\uuid',
+221 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\uuid',
+221 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\uuid.cmd',
+221 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\uuid.ps1'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@solana\\errors',
+222 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\errors',
+222 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\errors.cmd',
+222 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\errors.ps1'
+222 silly reify ]
+223 silly reify moves {
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\autoprefixer': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.autoprefixer-bRorIWbq',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\autoprefixer': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.autoprefixer-SkAiPT1v',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.autoprefixer.cmd-Itpm4dWx',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.autoprefixer.ps1-D9CW14mn',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\baseline-browser-mapping': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.baseline-browser-mapping-EuMgS1P2',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.baseline-browser-mapping-7mpxrU8f',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.baseline-browser-mapping.cmd-XVYBoT7O',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.baseline-browser-mapping.ps1-S9KDOyug',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\browserslist': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.browserslist-CF6KgFrs',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\browserslist': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.browserslist-Jxpvinxu',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.browserslist.cmd-AkRCqp69',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.browserslist.ps1-mAjawn19',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\crc-32': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.crc-32-B2PXtaMc',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\crc32': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.crc32-77XXDWPk',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\crc32.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.crc32.cmd-aLkS6bQo',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\crc32.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.crc32.ps1-UXadHNjI',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\cssesc': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.cssesc-il0uBhl7',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\cssesc': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.cssesc-u4aGvImZ',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.cssesc.cmd-BQRKyR2R',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.cssesc.ps1-OCAjM5Ji',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\jiti': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.jiti-8lHEv6vk',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\jiti': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.jiti-BUEesshC',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.jiti.cmd-jtmOCiyY',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.jiti.ps1-BG7mEHZq',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\loose-envify': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.loose-envify-WKvXWlfq',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\loose-envify': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.loose-envify-4O3ewmqW',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.loose-envify.cmd-RUjoGG9B',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.loose-envify.ps1-dAgp51a9',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\next': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.next-pb9r75vA',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\next': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.next-uTUbyp6g',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\next.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.next.cmd-dUICzwDP',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\next.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.next.ps1-KpdXEuIV',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\nanoid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.nanoid-RHNiqhdN',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\nanoid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.nanoid-5PGojrHX',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.nanoid.cmd-EUPtZHs7',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.nanoid.ps1-htF5pNDs',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\node-gyp-build': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.node-gyp-build-6Nia20QD',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-5CDvlIGo',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build.cmd-eE7M07bk',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build.ps1-hzrqFTRS',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-optional': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-optional-QeFqSGuw',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-optional.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-optional.cmd-eHWJp1Jl',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-optional.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-optional.ps1-LqLiPFuY',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-test': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-test-cdVReyNT',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-test.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-test.cmd-1YQDMTaD',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\node-gyp-build-test.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.node-gyp-build-test.ps1-WlH0VFVA',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\pino': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.pino-noBbGlRV',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\pino': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.pino-fOtDtOXO',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\pino.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.pino.cmd-iFgErF9P',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\pino.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.pino.ps1-Yo6Dhx3E',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\porto': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.porto-w4zbSHTd',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\porto': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.porto-MKOqhxDk',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\porto.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.porto.cmd-qOsulu8j',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\porto.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.porto.ps1-Pd9ZIKG8',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\qrcode': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.qrcode-EA3zukD3',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\qrcode': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.qrcode-HgCjBB5C',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\qrcode.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.qrcode.cmd-feSpTAFl',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\qrcode.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.qrcode.ps1-GIJiZ1eq',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\resolve': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.resolve-JuY6ULR4',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\resolve': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.resolve-Ew6llFlC',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.resolve.cmd-GtLYqY4p',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.resolve.ps1-LeLMpEPJ',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\semver': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.semver-XI8OTSq6',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\semver': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.semver-5neJY4O1',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.semver.cmd-cB2H68ZR',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.semver.ps1-jcIg4G1K',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\sha.js': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.sha.js-KXhuMPUm',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sha.js': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sha.js-UGxrsi8T',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sha.js.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sha.js.cmd-MbQGj73B',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sha.js.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sha.js.ps1-BlxbMvWg',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\tailwindcss': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.tailwindcss-II43vtzy',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwind': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tailwind-uU0cCZTr',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tailwind.cmd-MBlGLk4X',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tailwind.ps1-d5pUng2e',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tailwindcss-UIEiI916',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tailwindcss.cmd-HXs00hrW',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tailwindcss.ps1-pTWTr5Qe',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\sucrase': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.sucrase-ZEJQzoQf',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sucrase-XR66gV9i',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sucrase.cmd-Rxarmsfv',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sucrase.ps1-KZCnLjKk',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sucrase-node-uEbrYB3E',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sucrase-node.cmd-F5r0XFFM',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.sucrase-node.ps1-bXp6lnyc',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\typescript': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.typescript-0Xikbqnw',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsc': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tsc-TG4Aqcoz',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tsc.cmd-5yytIiCy',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tsc.ps1-C2tupGSY',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsserver': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tsserver-pboZbc1Q',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tsserver.cmd-ASW7QmOd',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.tsserver.ps1-xZC6PZ8E',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\ua-parser-js': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.ua-parser-js-8ZrtC9zs',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\ua-parser-js': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.ua-parser-js-IJ82iCaC',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\ua-parser-js.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.ua-parser-js.cmd-hAioN1gi',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\ua-parser-js.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.ua-parser-js.ps1-IDCCP1Cb',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\update-browserslist-db': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.update-browserslist-db-mhYLzbrQ',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.update-browserslist-db-jy7SLsJq',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.update-browserslist-db.cmd-UxLf2O1o',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.update-browserslist-db.ps1-ZkoroYMG',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.uuid-ZSd3KHI2',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.uuid-YYv5kIWy',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.uuid.cmd-R6EgFwIi',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.uuid.ps1-okBzHXz2',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@ethereumjs\\rlp': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@ethereumjs\\.rlp-yxEon84b',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\rlp': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.rlp-xcEELbWs',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\rlp.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.rlp.cmd-UBOEfjEB',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\rlp.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.rlp.ps1-FzbveEds',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.uuid-Tqhs8kGE',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\.uuid-OTHy4WRI',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\.uuid.cmd-xGE2oEQp',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-engine\\node_modules\\.bin\\.uuid.ps1-h7HsefhA',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.uuid-xdhV3ilw',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\.uuid-5E2bPnjb',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\.uuid.cmd-sGgWE5w2',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\providers\\node_modules\\.bin\\.uuid.ps1-duTlYMmo',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.uuid-j5wsMaR7',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\.uuid-Th4X9aCO',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\.uuid.cmd-vbfl2ftV',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\eth-json-rpc-provider\\node_modules\\.bin\\.uuid.ps1-ltkftHu6',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.uuid-FvaCasSJ',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\.uuid-uwTz43XA',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\.uuid.cmd-oCwa9fLB',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\json-rpc-middleware-stream\\node_modules\\.bin\\.uuid.ps1-BiZcdIrU',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.uuid-5M6AUykW',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\uuid': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\.uuid-I3Gr2zrz',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\.uuid.cmd-dtzxkkmJ',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@metamask\\utils\\node_modules\\.bin\\.uuid.ps1-jjkMGBNq',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@solana\\errors': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\@solana\\.errors-qyFHmJTJ',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\errors': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.errors-zHCnIXbR',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\errors.cmd': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.errors.cmd-liQ3Nj4j',
+223 silly reify   'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\errors.ps1': 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\.bin\\.errors.ps1-fsHNHSKj'
+223 silly reify }
+224 silly packumentCache corgi:https://registry.npmjs.org/@solana%2ferrors cache-miss
+225 silly packumentCache corgi:https://registry.npmjs.org/@ethereumjs%2frlp cache-miss
+226 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+227 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+228 silly packumentCache corgi:https://registry.npmjs.org/ua-parser-js cache-miss
+229 silly packumentCache corgi:https://registry.npmjs.org/typescript cache-miss
+230 silly packumentCache corgi:https://registry.npmjs.org/sucrase cache-miss
+231 silly packumentCache corgi:https://registry.npmjs.org/sha.js cache-miss
+232 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+233 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+234 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+235 silly packumentCache corgi:https://registry.npmjs.org/qrcode cache-miss
+236 silly packumentCache corgi:https://registry.npmjs.org/porto cache-miss
+237 silly packumentCache corgi:https://registry.npmjs.org/pino cache-miss
+238 silly packumentCache corgi:https://registry.npmjs.org/node-gyp-build cache-miss
+239 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+240 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+241 silly packumentCache corgi:https://registry.npmjs.org/jiti cache-miss
+242 silly packumentCache corgi:https://registry.npmjs.org/cssesc cache-miss
+243 silly packumentCache corgi:https://registry.npmjs.org/loose-envify cache-miss
+244 silly packumentCache corgi:https://registry.npmjs.org/crc-32 cache-miss
+245 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+246 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+247 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+248 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+249 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+250 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+251 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer cache-miss
+252 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+253 http cache https://registry.npmjs.org/uuid 83ms (cache hit)
+254 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:false
+255 http cache https://registry.npmjs.org/uuid 83ms (cache hit)
+256 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:false
+257 silly packumentCache corgi:https://registry.npmjs.org/uuid dispose
+258 http cache https://registry.npmjs.org/porto 91ms (cache hit)
+259 silly packumentCache corgi:https://registry.npmjs.org/porto set size:140251 disposed:false
+260 http cache https://registry.npmjs.org/uuid 93ms (cache hit)
+261 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:true
+262 silly packumentCache corgi:https://registry.npmjs.org/uuid dispose
+263 http cache https://registry.npmjs.org/uuid 95ms (cache hit)
+264 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:true
+265 silly packumentCache corgi:https://registry.npmjs.org/uuid dispose
+266 http cache https://registry.npmjs.org/uuid 96ms (cache hit)
+267 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:true
+268 silly packumentCache corgi:https://registry.npmjs.org/uuid dispose
+269 http cache https://registry.npmjs.org/next 136ms (cache hit)
+270 silly packumentCache corgi:https://registry.npmjs.org/next set size:25503891 disposed:false
+271 http cache https://registry.npmjs.org/uuid 371ms (cache hit)
+272 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:true
+273 silly packumentCache corgi:https://registry.npmjs.org/uuid dispose
+274 http cache https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 433ms (cache hit)
+275 http cache https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 441ms (cache hit)
+276 http cache https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 448ms (cache hit)
+277 http cache https://registry.npmjs.org/porto/-/porto-0.2.35.tgz 453ms (cache hit)
+278 http cache https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 174ms (cache hit)
+279 http cache https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 459ms (cache hit)
+280 http cache https://registry.npmjs.org/next/-/next-15.5.24.tgz 843ms (cache hit)
+281 http cache https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 1116ms (cache hit)
+282 http fetch GET 200 https://registry.npmjs.org/cssesc 1247ms (cache miss)
+283 silly packumentCache corgi:https://registry.npmjs.org/cssesc set size:undefined disposed:false
+284 http fetch GET 200 https://registry.npmjs.org/loose-envify 1258ms (cache miss)
+285 silly packumentCache corgi:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+286 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 1268ms (cache miss)
+287 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+288 http fetch GET 200 https://registry.npmjs.org/crc-32 1267ms (cache miss)
+289 silly packumentCache corgi:https://registry.npmjs.org/crc-32 set size:undefined disposed:false
+290 http fetch GET 200 https://registry.npmjs.org/sha.js 1279ms (cache miss)
+291 silly packumentCache corgi:https://registry.npmjs.org/sha.js set size:undefined disposed:false
+292 http fetch GET 200 https://registry.npmjs.org/@ethereumjs%2frlp 1283ms (cache miss)
+293 silly packumentCache corgi:https://registry.npmjs.org/@ethereumjs%2frlp set size:undefined disposed:false
+294 http fetch GET 200 https://registry.npmjs.org/node-gyp-build 1293ms (cache miss)
+295 silly packumentCache corgi:https://registry.npmjs.org/node-gyp-build set size:undefined disposed:false
+296 http fetch GET 200 https://registry.npmjs.org/ua-parser-js 1297ms (cache miss)
+297 silly packumentCache corgi:https://registry.npmjs.org/ua-parser-js set size:undefined disposed:false
+298 http cache https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 50ms (cache hit)
+299 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 1298ms (cache miss)
+300 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+301 http fetch GET 200 https://registry.npmjs.org/qrcode 1305ms (cache miss)
+302 silly packumentCache corgi:https://registry.npmjs.org/qrcode set size:undefined disposed:false
+303 http cache https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 49ms (cache hit)
+304 http fetch GET 200 https://registry.npmjs.org/semver 1313ms (cache miss)
+305 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+306 http fetch GET 200 https://registry.npmjs.org/resolve 1314ms (cache miss)
+307 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+308 http cache https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.2.tgz 52ms (cache hit)
+309 http cache https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz 51ms (cache hit)
+310 http fetch GET 200 https://registry.npmjs.org/browserslist 1328ms (cache miss)
+311 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+312 http cache https://registry.npmjs.org/sha.js/-/sha.js-2.4.12.tgz 57ms (cache hit)
+313 http fetch GET 200 https://registry.npmjs.org/autoprefixer 1333ms (cache miss)
+314 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer set size:undefined disposed:false
+315 http fetch GET 200 https://registry.npmjs.org/jiti 1347ms (cache miss)
+316 silly packumentCache corgi:https://registry.npmjs.org/jiti set size:undefined disposed:false
+317 http cache https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.4.tgz 73ms (cache hit)
+318 http cache https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-2.0.10.tgz 72ms (cache hit)
+319 http fetch GET 200 https://registry.npmjs.org/nanoid 1368ms (cache miss)
+320 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+321 http fetch GET 200 https://registry.npmjs.org/sucrase 1379ms (cache miss)
+322 silly packumentCache corgi:https://registry.npmjs.org/sucrase set size:undefined disposed:false
+323 http cache https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.20.tgz 77ms (cache hit)
+324 http cache https://registry.npmjs.org/qrcode/-/qrcode-1.5.3.tgz 77ms (cache hit)
+325 http cache https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 80ms (cache hit)
+326 http cache https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 81ms (cache hit)
+327 http cache https://registry.npmjs.org/browserslist/-/browserslist-4.28.8.tgz 83ms (cache hit)
+328 http cache https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.4.tgz 78ms (cache hit)
+329 http cache https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 87ms (cache hit)
+330 http fetch GET 200 https://registry.npmjs.org/pino 1444ms (cache miss)
+331 silly packumentCache corgi:https://registry.npmjs.org/pino set size:undefined disposed:false
+332 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz 85ms (cache hit)
+333 http cache https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 80ms (cache hit)
+334 http cache https://registry.npmjs.org/pino/-/pino-7.11.0.tgz 40ms (cache hit)
+335 warn tar ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@ethereumjs/rlp'
+336 silly tar yr [CwdError]: ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@ethereumjs/rlp'
+336 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:42145
+336 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+336 silly tar     at FSReqCallback.oncomplete (node:fs:198:21) {
+336 silly tar   path: 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@ethereumjs/rlp',
+336 silly tar   code: 'ENOENT',
+336 silly tar   syscall: 'chdir'
+336 silly tar }
+337 warn tarball tarball data for @ethereumjs/rlp@4.0.1 (sha512-tqsQiBQDQdmPWE1xkkBq4rlSW5QZpLOUJ5RJh2/9fug+q9tnUhuZoVLk7s0scUIKTOzEtR72DFBXI4WiZcMpvw==) seems to be corrupted. Trying again.
+338 http fetch GET 200 https://registry.npmjs.org/@ethereumjs/rlp/-/rlp-4.0.1.tgz 474ms (cache revalidated)
+339 warn tar ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@ethereumjs/rlp'
+340 silly tar yr [CwdError]: ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@ethereumjs/rlp'
+340 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:42145
+340 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+340 silly tar     at FSReqCallback.oncomplete (node:fs:198:21) {
+340 silly tar   path: 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@ethereumjs/rlp',
+340 silly tar   code: 'ENOENT',
+340 silly tar   syscall: 'chdir'
+340 silly tar }
+341 warn tarball tarball data for @ethereumjs/rlp@4.0.1 (sha512-tqsQiBQDQdmPWE1xkkBq4rlSW5QZpLOUJ5RJh2/9fug+q9tnUhuZoVLk7s0scUIKTOzEtR72DFBXI4WiZcMpvw==) seems to be corrupted. Trying again.
+342 http cache https://registry.npmjs.org/@ethereumjs/rlp/-/rlp-4.0.1.tgz 32ms (cache hit)
+343 http fetch GET 200 https://registry.npmjs.org/@solana%2ferrors 1925ms (cache miss)
+344 silly packumentCache corgi:https://registry.npmjs.org/@solana%2ferrors set size:undefined disposed:false
+345 http fetch GET 200 https://registry.npmjs.org/tailwindcss 2019ms (cache miss)
+346 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+347 http cache https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 42ms (cache hit)
+348 http fetch GET 200 https://registry.npmjs.org/typescript 2255ms (cache miss)
+349 silly packumentCache corgi:https://registry.npmjs.org/typescript set size:undefined disposed:false
+350 http cache https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 110ms (cache hit)
+351 warn tar ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors'
+352 silly tar yr [CwdError]: ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors'
+352 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:42145
+352 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+352 silly tar     at FSReqCallback.oncomplete (node:fs:198:21) {
+352 silly tar   path: 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors',
+352 silly tar   code: 'ENOENT',
+352 silly tar   syscall: 'chdir'
+352 silly tar }
+353 warn tarball tarball data for @solana/errors@5.5.1 (sha512-vFO3p+S7HoyyrcAectnXbdsMfwUzY2zYFUc2DEe5BwpiE9J1IAxPBGjOWO6hL1bbYdBrlmjNx8DXCslqS+Kcmg==) seems to be corrupted. Trying again.
+354 http fetch GET 200 https://registry.npmjs.org/@solana/errors/-/errors-5.5.1.tgz 523ms (cache revalidated)
+355 warn tar ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors'
+356 silly tar yr [CwdError]: ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors'
+356 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:42145
+356 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+356 silly tar     at FSReqCallback.oncomplete (node:fs:198:21) {
+356 silly tar   path: 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors',
+356 silly tar   code: 'ENOENT',
+356 silly tar   syscall: 'chdir'
+356 silly tar }
+357 warn tarball tarball data for @solana/errors@5.5.1 (sha512-vFO3p+S7HoyyrcAectnXbdsMfwUzY2zYFUc2DEe5BwpiE9J1IAxPBGjOWO6hL1bbYdBrlmjNx8DXCslqS+Kcmg==) seems to be corrupted. Trying again.
+358 http cache https://registry.npmjs.org/@solana/errors/-/errors-5.5.1.tgz 24ms (cache hit)
+359 warn cleanup Failed to remove some directories [
+359 warn cleanup   [
+359 warn cleanup     'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\next',
+359 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\chaiy\OneDrive\Documents\thetanuts track 1\node_modules\next\dist\esm\build\webpack\config\blocks\css\loaders'] {
+359 warn cleanup       errno: -4048,
+359 warn cleanup       code: 'EPERM',
+359 warn cleanup       syscall: 'rmdir',
+359 warn cleanup       path: 'C:\\Users\\chaiy\\OneDrive\\Documents\\thetanuts track 1\\node_modules\\next\\dist\\esm\\build\\webpack\\config\\blocks\\css\\loaders'
+359 warn cleanup     }
+359 warn cleanup   ]
+359 warn cleanup ]
+360 verbose stack CwdError: ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors'
+360 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:42145
+360 verbose stack     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+360 verbose stack     at FSReqCallback.oncomplete (node:fs:198:21)
+361 error code ENOENT
+362 error syscall chdir
+363 error path C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors
+364 error enoent ENOENT: Cannot cd into 'C:/Users/chaiy/OneDrive/Documents/thetanuts track 1/node_modules/@solana/errors'
+365 error enoent This is related to npm not being able to find a file.
+365 error enoent
+366 silly unfinished npm timer reify 1788177528149
+367 silly unfinished npm timer reify:unpack 1788177529337
+368 silly unfinished npm timer reifyNode:node_modules/@solana/errors 1788177529337
+369 silly unfinished npm timer reifyNode:node_modules/@ethereumjs/rlp 1788177529338
+370 verbose cwd C:\Users\chaiy\OneDrive\Documents\thetanuts track 1
+371 verbose os Windows_NT 10.0.26200
+372 verbose node v24.20.0
+373 verbose npm  v11.19.0
+374 verbose exit 1
+375 verbose code 1
+376 error A complete log of this run can be found in: C:\Users\chaiy\OneDrive\Documents\thetanuts track 1\.npm-cache\_logs\2026-08-31T11_58_47_704Z-debug-0.log
