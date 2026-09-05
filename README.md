@@ -1,141 +1,221 @@
-# Thetanuts Finance Options Strategy Explorer
+# Thetanuts SDK Product
 
-A professional options strategy explorer built for the **Thetanuts Finance** hackathon track.
+A professional options strategy explorer designed for the **Thetanuts Finance** ecosystem. The platform gives DeFi traders one workspace to analyze markets, explore options strategies, understand volatility, manage positions, and monitor portfolio risk.
 
-The application helps traders explore options strategies, monitor market conditions, understand risk exposure, analyze implied volatility, and track portfolio activity through one focused trading workspace.
+Built for the Thetanuts Finance hackathon track.
+
+## Project Description
+
+Thetanuts SDK Product is an options intelligence and strategy-exploration interface for on-chain traders.
+
+Users can:
+
+- Explore options strategies such as Bull Call Spreads, Covered Calls, Bear Put Spreads, and Iron Condors
+- Review strategy payoff, premium, strike price, expiry, and implied volatility
+- Monitor market price, volume, open interest, put-call ratio, and market sentiment
+- Track open positions, unrealized profit and loss, margin use, and risk exposure
+- Analyze implied volatility, expected move, Greeks, and volatility structure
+- Review activity history and maintain an asset watchlist
+
+The product is designed to make on-chain options feel more understandable and professional for both experienced traders and newer DeFi users.
+
+## Problem Statement
+
+Options are valuable tools for hedging, earning premium, and expressing market views. However, on-chain options can be difficult to use because traders often need to switch between multiple products to answer important questions:
+
+- What is the market currently pricing in?
+- Which strategy matches my market view?
+- What is the maximum possible profit or loss?
+- How does volatility affect the trade?
+- What risk do I currently have across my portfolio?
+- Which contracts have liquidity and activity?
+
+This fragmented experience makes options feel technical and inaccessible.
+
+Thetanuts SDK Product solves this by bringing market intelligence, options strategy analysis, portfolio risk monitoring, analytics, history, and watchlists into a single trader-focused interface.
+
+## Blockchain Technology Used
+
+This project is built for the **Base** ecosystem and is designed around the Thetanuts Finance on-chain options experience.
+
+### Technologies
+
+- **Base** — Ethereum Layer 2 network used for low-cost, fast on-chain interactions
+- **Thetanuts Finance** — Options protocol ecosystem and product inspiration
+- **Ethereum-compatible wallets** — Intended for user wallet connection and transaction signing
+- **Next.js** — Frontend framework
+- **React** — User-interface library
+- **TypeScript** — Type-safe application development
+- **CSS / Tailwind CSS** — Responsive user-interface styling
+
+## Smart Contract Addresses — Testnet
+
+This submission is currently a frontend and product-experience prototype. No custom smart contracts were deployed by the team for this version.
+
+| Contract | Network | Address |
+|---|---|---|
+| Thetanuts SDK Product contracts | Base Sepolia Testnet | Not deployed |
+| Thetanuts Protocol integration | Base / Base Sepolia | To be connected in a future iteration |
+
+If smart contracts are deployed later, update this table with the verified contract name, network, address, and block explorer link.
 
 ## Features
 
-- **Strategy Dashboard**  
-  Build and compare options strategies including Bull Call Spreads, Covered Calls, Bear Put Spreads, and Iron Condors.
+### Dashboard
 
-- **Market Overview**  
-  View spot price, implied volatility, options volume, open interest, put-call ratio, max pain, funding rate, and active contracts.
+Build and inspect options strategies with:
 
-- **Positions Workspace**  
-  Monitor portfolio value, unrealized profit and loss, open positions, upcoming expiries, margin usage, and risk exposure.
+- Asset selection
+- Strategy selection
+- Expiry selection
+- Market or custom order price
+- Strike price and premium details
+- Implied volatility
+- Interactive profit-and-loss payoff chart
 
-- **Strategy Scanner**  
-  Explore structured trading ideas across directional, income, volatility, and hedging strategies.
+### Market
 
-- **Options Analytics**  
-  Review implied-volatility term structure, IV rank, expected move, Greeks, and a volatility surface across strikes and expiries.
+Monitor professional market indicators including:
 
-- **History**  
-  Track openings, closings, expiries, deposits, realized P&L, win rate, and premium collected.
+- Live-style asset price
+- 24-hour movement
+- Options volume
+- Open interest
+- At-the-money implied volatility
+- Put-call ratio
+- Max pain
+- Funding rate
+- Most active contracts
 
-- **Watchlist**  
-  Follow assets including BTC, ETH, SOL, and BNB with live-style prices, volatility, volume, open interest, and market signals.
+### Positions
 
-- **Responsive Interface**  
-  Designed to work across desktop and mobile screens.
+Manage portfolio exposure through:
 
-## Tech Stack
+- Portfolio value
+- Unrealized profit and loss
+- Margin utilization
+- Open positions
+- Upcoming expiries
+- Delta, theta, and vega exposure
 
-- Next.js
-- React
-- TypeScript
-- CSS
-- Tailwind CSS
-- Thetanuts Finance / Base ecosystem
+### Strategies
 
-## Getting Started
+Discover trade structures based on a trader’s objective:
+
+- Directional strategies
+- Income strategies
+- Volatility strategies
+- Hedging strategies
+
+### Analytics
+
+Understand options pricing through:
+
+- Implied-volatility term structure
+- IV rank
+- Expected move
+- Greeks snapshot
+- Volatility surface
+
+### History and Watchlist
+
+- Review trade activity and realized results
+- Track win rate and premium collected
+- Monitor selected assets and market signals
+
+## Setup and Installation
 
 ### Prerequisites
 
-Install the following first:
+Install the following:
 
-- Node.js 18 or newer
+- [Node.js](https://nodejs.org/) version 18 or newer
 - npm
 - Git
 
-### Installation
-
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/03cyy16/Thetanuts-SDK-Product.git
 ```
 
-Go into the project folder:
+### Enter the Project Folder
 
 ```bash
 cd Thetanuts-SDK-Product
 ```
 
-Install dependencies:
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### Start the Development Server
 
 ```bash
-npm run dev
+npm.cmd run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+Open the application in your browser:
 
-## Available Commands
-
-```bash
-npm run dev
+```text
+http://localhost:3000
 ```
 
-Starts the app locally in development mode.
+### Create a Production Build
 
 ```bash
 npm run build
 ```
 
-Creates an optimized production build.
+### Run the Production Build
 
 ```bash
 npm run start
 ```
-
-Runs the production build locally after `npm run build`.
-
-## Product Flow
-
-1. Select an asset and options strategy on the Dashboard.
-2. Review the strategy payoff chart, strike price, premium, expiry, and implied volatility.
-3. Use Market to understand liquidity, sentiment, and active contracts.
-4. Use Strategies to discover trade structures suited to a market view.
-5. Use Analytics to study volatility, expected move, and Greeks.
-6. Use Positions to manage open exposure and expiry risk.
-7. Use History to review outcomes and trading activity.
-8. Use Watchlist to monitor assets and potential opportunities.
 
 ## Project Structure
 
 ```text
 app/
   api/market/         Market data route
-  dashboard.css       Main application styling
+  dashboard.css       Application and trading workspace styling
   globals.css         Global styling
   icon.svg            Thetanuts browser icon
-  layout.tsx          App metadata and root layout
-  page.tsx            Main application and trading views
+  layout.tsx          Metadata and root layout
+  page.tsx            Dashboard and trading views
 
 components/
-  PayoffChart.tsx     Payoff chart component
+  PayoffChart.tsx     Options payoff visualization
 
 lib/
   thetanuts.ts        Thetanuts-related utilities and integrations
 ```
 
-## Note on Market Data
+## Future Improvements
 
-The current prototype includes dynamic, live-style market presentation for demonstration purposes. It is structured to support live Thetanuts Protocol and Base ecosystem data integrations.
+- Connect live Thetanuts Protocol market and options data
+- Add wallet connection through Base-compatible wallets
+- Integrate Base Sepolia testnet contracts
+- Enable real order placement and position management
+- Add user-specific portfolio persistence
+- Add alerts for volatility, expiry, and price conditions
+
+## Team Members
+
+| Name | Role |
+|---|---|
+| Chai Yenyit | Product design  frontend developmentn |
+| Chua Qin Pei | Backend development and presentation|
+| Anson Heng Xan You | Backend development and presentation |
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Built For
+## Acknowledgments
 
-Thetanuts Finance hackathon track.
-
-Built to make on-chain options feel more transparent, professional, and approachable.
+- Thetanuts Finance
+- Base
+- The open-source Next.js and React communities
