@@ -504,12 +504,19 @@ export default function Home() {
   };
 
   useEffect(() => {
-    setMarketPrice(assets[asset]);
+    const base = assets[asset];
+    setMarketPrice(base);
+    let tickCount = 0;
     const timer = window.setInterval(() => {
-      setMarketPrice((previous) =>
-        Number((previous * (1 + (Math.random() - 0.5) * 0.012)).toFixed(assets[asset] < 10 ? 4 : 2)),
-      );
-    }, 2500);
+      tickCount += 1;
+      setMarketPrice((prev) => {
+        const cycle = Math.sin(tickCount * 0.45) * 0.022;
+        const jitter = (Math.random() - 0.5) * 0.008;
+        const target = base * (1 + cycle + jitter);
+        const nextPrice = prev * 0.55 + target * 0.45;
+        return Number(nextPrice.toFixed(base < 10 ? 4 : 2));
+      });
+    }, 2000);
     return () => clearInterval(timer);
   }, [asset]);
 
@@ -835,15 +842,35 @@ function Dashboard({
     .match(/\d+/g)!
     .map(Number)
     .reduce<number[][]>((all, v, i, values) => (i % 2 ? [...all, [values[i - 1], v]] : all), []);
-  const min = marketPrice * 0.6,
-    max = marketPrice * 1.3;
-  const markerX = Math.max(15, Math.min(535, 15 + ((marketPrice - min) / (max - min)) * 520));
-  const end =
-    points.slice(1).find((point, i) => markerX <= point[0] && markerX >= points[i][0]) || points[points.length - 1];
-  const index = points.indexOf(end),
-    [startX, startY] = points[Math.max(0, index - 1)];
-  const markerY = startY + ((end[1] - startY) * (markerX - startX)) / (end[0] - startX || 1);
+
+  const basePrice = assets[asset];
+  const min = basePrice * 0.6;
+  const max = basePrice * 1.3;
+  const activePrice = mode === 'Market price' ? marketPrice : Number(customPrice || marketPrice);
   const shownPrice = mode === 'Market price' ? marketPrice : Number(customPrice || 0);
+
+  // Map active price smoothly to X coordinate along the payoff line
+  const priceRatio = basePrice > 0 ? (activePrice - basePrice) / basePrice : 0;
+  const markerX = Math.max(15, Math.min(535, 312.14 + priceRatio * 2400));
+
+  // Interpolate markerY precisely along the active strategy path
+  let markerY = 121;
+  if (points.length > 0) {
+    if (markerX <= points[0][0]) {
+      markerY = points[0][1];
+    } else if (markerX >= points[points.length - 1][0]) {
+      markerY = points[points.length - 1][1];
+    } else {
+      for (let i = 0; i < points.length - 1; i++) {
+        const [x0, y0] = points[i];
+        const [x1, y1] = points[i + 1];
+        if (markerX >= x0 && markerX <= x1) {
+          markerY = x1 === x0 ? y0 : y0 + ((y1 - y0) * (markerX - x0)) / (x1 - x0);
+          break;
+        }
+      }
+    }
+  }
 
   return (
     <section className="content">
@@ -956,15 +983,15 @@ function Dashboard({
               r="5"
             >
               <title>
-                Latest {asset} price: {money(marketPrice)}
+                Latest {asset} price: {money(shownPrice || marketPrice)}
               </title>
             </circle>
           </svg>
           <div className="axis">
             <span>{money(min)}</span>
-            <span>{money(marketPrice * 0.85)}</span>
-            <span>{money(marketPrice)}</span>
-            <span>{money(marketPrice * 1.15)}</span>
+            <span>{money(basePrice * 0.85)}</span>
+            <span>{money(basePrice)}</span>
+            <span>{money(basePrice * 1.15)}</span>
             <span>{money(max)}</span>
           </div>
         </section>
